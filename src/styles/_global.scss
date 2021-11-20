@@ -1,0 +1,15 @@
+$primaryColor: darkcyan;
+$secondaryColor: tan;
+
+h1 {
+  color: $primaryColor;
+}
+.container {
+  &_subtitle {
+    color: $secondaryColor;
+    display: block;
+    height: 140px;
+    background: url('../images/Tehran_Iran.jpg');
+  }
+  
+}
