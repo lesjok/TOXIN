@@ -1,6 +1,9 @@
 $primaryColor: darkcyan;
 $secondaryColor: tan;
 
+html {
+  font-family: generalFont;
+}
 h1 {
   color: $primaryColor;
 }
@@ -10,6 +13,8 @@ h1 {
     display: block;
     height: 140px;
     background: url('../images/Tehran_Iran.jpg');
+    display: flex;
+    justify-content: center;
   }
   
 }
